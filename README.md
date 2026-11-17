@@ -15,3 +15,5 @@ Uses xUnit.
 The workflow for GitHub Actions is located at .github/workflows/ci.yml
 
 Restores, builds, and tests using Library.slnx and Library.Tests
+
+See the testing/service-failure branch for induced failure testing of LibraryServices.cs
