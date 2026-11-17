@@ -124,7 +124,7 @@ public class LibraryService
 
     public Book? GetBook(int bookId)
     {
-        return books.FirstOrDefault(b => b.Id == bookId);
+        return books.FirstOrDefault(b => b.Id != bookId); // Purposefully bad comparison
     }
 
     private void WriteBooks()
