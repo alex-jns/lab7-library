@@ -15,3 +15,5 @@ Uses xUnit.
 The workflow for GitHub Actions is located at .github/workflows/ci.yml
 
 Restores, builds, and tests using Library.slnx and Library.Tests
+
+This branch is meant to purposefully break a value in LibraryService.cs
